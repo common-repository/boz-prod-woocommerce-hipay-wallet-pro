@@ -1,0 +1,824 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce HipayWallet Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-04 21:22+0000\n"
+"PO-Revision-Date: 2020-02-04 21:51+0000\n"
+"Last-Translator: Support <support@alfaproweb.fr>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: includes/functions.php:61
+msgid "HiPay abonnement"
+msgstr "HiPay subscription"
+
+#: includes/functions.php:126
+msgid "Paiements récurrents ?"
+msgstr "Recurring payments?"
+
+#: includes/functions.php:136
+msgid "Activer les paiements récurrents pour ce produit/service."
+msgstr "Activate recurring payments for this product/service."
+
+#: includes/functions.php:142
+msgid "Type d'abonnement ?"
+msgstr "Subscription type?"
+
+#: includes/functions.php:149
+msgid "Abonnement régulier"
+msgstr "Regular subscription"
+
+#: includes/functions.php:149
+msgid "Abonnement personnalisé"
+msgstr "Custom subscription"
+
+#: includes/functions.php:152
+msgid "Choisir le type d'abonnement pour ce produit/service."
+msgstr "Choose the subscription type for this product/service."
+
+#: includes/functions.php:158
+msgid "1er Intervalle"
+msgstr "1st interval"
+
+#: includes/functions.php:170
+msgid "Intervalle entre le 1er et le 2e paiement (nombre de jour(s))."
+msgstr "Interval between the 1st and 2nd payment (number of day(s))."
+
+#: includes/functions.php:176 includes/functions.php:248
+msgid "Nombre de jetons"
+msgstr "Number of tokens"
+
+#: includes/functions.php:188
+msgid "Nombre de jetons crédités au 1er paiement (si le produit/service nécessite des jetons)."
+msgstr "Number of tokens credited on 1st payment (if the product/service requires tokens)."
+
+#: includes/functions.php:194 includes/functions.php:266
+msgid "Libellé du produit/service"
+msgstr "Product/service label"
+
+#: includes/functions.php:195
+msgid "Ex.: \"Offre découverte du service : 100 jetons\""
+msgstr "Ex.: \"Service discovery offer: 100 tokens\""
+
+#: includes/functions.php:206
+msgid "Libellé du produit/service pour le 1er paiement."
+msgstr "Label of the product/service for the 1st payment."
+
+#: includes/functions.php:212
+msgid "Montant dès 2e paiement"
+msgstr "Amount from 2nd payment"
+
+#: includes/functions.php:224
+msgid "Montant à payer dès le 2e paiement (montant du 1er paiement : onglet \"Général\")."
+msgstr "Amount to be paid from the 2nd payment (amount from the 1st payment: \"General\" tab)."
+
+#: includes/functions.php:230
+msgid "Intervalle des paiements"
+msgstr "Payment interval"
+
+#: includes/functions.php:242
+msgid "Intervalle entre les paiements (nombre de jour(s)), dès le 2e paiement."
+msgstr "Interval between payments (number of day(s)), from the 2nd payment."
+
+#: includes/functions.php:260
+msgid "Nombre de jetons crédités à chaque paiement (si le produit/service nécessite des jetons), cette variable, si renseignée, crédite aussi l'utilisateur lors des paiements uniques."
+msgstr "Number of tokens credited with each payment (if the product/service requires tokens), this variable, if completed, also credits the user during single payments."
+
+#: includes/functions.php:267
+msgid "Ex.: \"1000 jetons pour utiliser le service\""
+msgstr "Ex.: \"1000 tokens to use the service\""
+
+#: includes/functions.php:278
+msgid "Libellé du produit/service à partir du 2e paiement."
+msgstr "Label of the product/service from the 2nd payment."
+
+#: includes/functions.php:284
+msgid "Variable database"
+msgstr "Variable in database"
+
+#: includes/functions.php:296
+msgid "Variable utilisée pour stocker les jetons de l'utilisateur en base de données."
+msgstr "Variable used to store customers tokens in the database."
+
+#: includes/functions.php:302
+msgid "Libellé des jetons"
+msgstr "Tokens label"
+
+#: includes/functions.php:314
+msgid "Variable utilisée pour déterminer le libellé des jetons/crédits en front-office : valeur au singulier | valeur au pluriel."
+msgstr "Variable used to determine the wording of the credits/tokens at the front office: singular value | plural value."
+
+#: includes/functions.php:320
+msgid "Commission aux affiliés ?"
+msgstr "Affiliates commissions?"
+
+#: includes/functions.php:327
+msgid "Pas de commission"
+msgstr "No commission"
+
+#: includes/functions.php:327
+msgid "Commission aux affiliés"
+msgstr "Affiliates commissions"
+
+#: includes/functions.php:330
+msgid "Choisir si une commission doit être versée aux affiliés pour ce produit/service."
+msgstr "Choose if a commission should be paid to affiliates for this product/service."
+
+#: includes/functions.php:336 includes/functions.php:354 includes/functions.php:372 includes/functions.php:390
+msgid "ID :"
+msgstr "ID:"
+
+#: includes/functions.php:348
+msgid "Pourcentage (%) du montant du produit/service qui sera reversé à l'affilié N°1."
+msgstr "Percentage (%) of the amount of the product/service that will be donated to affiliate N°1."
+
+#: includes/functions.php:366
+msgid "Pourcentage (%) du montant du produit/service qui sera reversé à l'affilié N°2."
+msgstr "Percentage (%) of the amount of the product/service that will be donated to affiliate N°2."
+
+#: includes/functions.php:384
+msgid "Pourcentage (%) du montant du produit/service qui sera reversé à l'affilié N°3."
+msgstr "Percentage (%) of the amount of the product/service that will be donated to affiliate N°3."
+
+#: includes/functions.php:402
+msgid "Pourcentage (%) du montant du produit/service qui sera reversé à l'affilié N°4."
+msgstr "Percentage (%) of the amount of the product/service that will be donated to affiliate N°4."
+
+#: includes/functions.php:510 includes/functions.php:1427 includes/functions.php:1498
+msgid "Crédits/jetons"
+msgstr "Credits/tokens"
+
+#: includes/functions.php:546
+msgid "Libellé des crédits/jetons"
+msgstr "Credits/tokens label"
+
+#: includes/functions.php:547
+msgid "Crédits/jetons disponibles"
+msgstr "Available credits/tokens"
+
+#: includes/functions.php:579
+msgid "Vous ne possédez actuellement aucun crédit/jeton..."
+msgstr "You currently have no credit/token..."
+
+#: includes/functions.php:581
+msgid "Crédits/jetons :"
+msgstr "Credits/tokens:"
+
+#: includes/functions.php:603
+msgid "Abonnements"
+msgstr "Subscriptions"
+
+#: includes/functions.php:645
+msgid "ID de l'abonnement"
+msgstr "Subscription ID"
+
+#: includes/functions.php:646
+msgid "N° de commande"
+msgstr "Order number"
+
+#: includes/functions.php:647
+msgid "Statut de l'abonnement"
+msgstr "Subscription status"
+
+#: includes/functions.php:657
+msgid "Vous êtes sur le point de stopper votre abonnement ID :"
+msgstr "You are about to stop your ID subscription:"
+
+#: includes/functions.php:657
+msgid "Cette action est irréversible. Pour stopper définitivement votre abonnement, cliquez sur le bouton suivant :"
+msgstr "This action is irreversible. To permanently stop your subscription, click on the following button:"
+
+#: includes/functions.php:657
+msgid "Votre abonnement a bien été stoppé."
+msgstr "Your subscription has been successfully stopped."
+
+#: includes/functions.php:657
+msgid "Une erreur est survenue : votre abonnement n'a pu être stoppé. Pour stopper votre abonnement, veuillez contacter l'administrateur du site."
+msgstr "An error has occurred: your subscription could not be stopped. To stop your subscription, please contact the site administrator."
+
+#: includes/functions.php:657
+msgid "Annuler"
+msgstr "Cancel"
+
+#: includes/functions.php:657
+msgid "STOPPER"
+msgstr "STOP"
+
+#: includes/functions.php:657
+msgid "Résiliation en cours : ne fermez pas la fenêtre."
+msgstr "Termination in progress: do not close the window."
+
+#: includes/functions.php:657
+msgid "Stopper"
+msgstr "Stop"
+
+#: includes/functions.php:663 includes/functions.php:672
+msgid "Stoppé"
+msgstr "Stopped"
+
+#: includes/functions.php:663
+msgid "Actif"
+msgstr "Active"
+
+#: includes/functions.php:670 includes/functions.php:690
+msgid "n°"
+msgstr "n°"
+
+#: includes/functions.php:693
+msgid "Paiement n°"
+msgstr "Payment n°"
+
+#: includes/functions.php:711
+msgid "Vous n'avez actuellement aucun abonnement..."
+msgstr "You currently have no subscription..."
+
+#: includes/functions.php:713
+msgid "Abonnements :"
+msgstr "Subscriptions:"
+
+#: includes/functions.php:813
+msgid "débités"
+msgstr "debited"
+
+#: includes/functions.php:813
+msgid "débité"
+msgstr "debited"
+
+#: includes/functions.php:817
+msgid "à chaque consultation de la page."
+msgstr "each time you view the page."
+
+#: includes/functions.php:825
+msgid "= accès illimité à la page."
+msgstr "= unlimited access to the page"
+
+#: includes/functions.php:849
+msgid " minutes"
+msgstr "minutes"
+
+#: includes/functions.php:849
+msgid " minute"
+msgstr "minute"
+
+#: includes/functions.php:865
+msgid " heures"
+msgstr "hours"
+
+#: includes/functions.php:865
+msgid " heure"
+msgstr "hour"
+
+#: includes/functions.php:881
+msgid " jours"
+msgstr "days"
+
+#: includes/functions.php:881
+msgid " jour"
+msgstr "day"
+
+#: includes/functions.php:897
+msgid " mois"
+msgstr "month(s)"
+
+#: includes/functions.php:913
+msgid " ans"
+msgstr "years"
+
+#: includes/functions.php:913
+msgid " an"
+msgstr "year"
+
+#: includes/functions.php:929
+msgid "= accès à la page pendant"
+msgstr "= access to the page during"
+
+#: includes/functions.php:929
+msgid "Expiration de l'accès à la page : "
+msgstr "Expiration of access to the page:"
+
+#: includes/functions.php:968 includes/functions.php:1042 includes/functions.php:1105
+msgid "Votre accès à ce contenu est illimité."
+msgstr "Your access to this content is unlimited."
+
+#: includes/functions.php:974 includes/functions.php:990 includes/functions.php:1048 includes/functions.php:1111
+msgid "Vous avez accès à ce contenu jusqu'au :"
+msgstr "You have access to this content until:"
+
+#: includes/functions.php:1002 includes/functions.php:1017 includes/functions.php:1062 includes/functions.php:1077 includes/functions.php:1125 includes/functions.php:1140 includes/functions.php:1171 includes/functions.php:1186 includes/functions.php:1203
+msgid "Accès restreint"
+msgstr "Restricted access"
+
+#: includes/functions.php:1004 includes/functions.php:1019 includes/functions.php:1064 includes/functions.php:1079 includes/functions.php:1127 includes/functions.php:1142 includes/functions.php:1173 includes/functions.php:1188
+msgid "Le contenu de cette page est restreint."
+msgstr "The content of this page is restricted."
+
+#: includes/functions.php:1004 includes/functions.php:1019 includes/functions.php:1064 includes/functions.php:1079 includes/functions.php:1127 includes/functions.php:1142 includes/functions.php:1173 includes/functions.php:1188
+msgid "La consultation de cette page coûte :"
+msgstr "The consultation of this page costs:"
+
+#: includes/functions.php:1004 includes/functions.php:1064 includes/functions.php:1127 includes/functions.php:1173
+msgid "Il vous manque :"
+msgstr "You are missing:"
+
+#: includes/functions.php:1006 includes/functions.php:1021 includes/functions.php:1066 includes/functions.php:1081 includes/functions.php:1129 includes/functions.php:1144 includes/functions.php:1175 includes/functions.php:1190
+msgid "Acheter des"
+msgstr "Buy some"
+
+#: includes/functions.php:1019 includes/functions.php:1079 includes/functions.php:1142 includes/functions.php:1188
+msgid "Vous possédez :"
+msgstr "You have:"
+
+#: includes/functions.php:1159
+msgid "de votre compte."
+msgstr "from your account."
+
+#: includes/functions.php:1205
+msgid "Le contenu de cette page est restreint.<br/>Vous devez vous connecter ou créer un compte pour consulter le contenu de cette page."
+msgstr "The content of this page is restricted.<br/>You must login or create an account to view the content of this page."
+
+#: includes/functions.php:1207
+msgid "Connexion"
+msgstr "Login"
+
+#: includes/functions.php:1208
+msgid "Créer un compte"
+msgstr "Create an account"
+
+#: includes/functions.php:1251
+msgid "crédités sur votre compte après achat."
+msgstr "credited to your account after purchase."
+
+#: includes/functions.php:1252
+msgid "crédité sur votre compte après achat."
+msgstr "credited to your account after purchase."
+
+#: includes/functions.php:1260 includes/functions.php:1274
+msgid "tous les"
+msgstr "every"
+
+#: includes/functions.php:1260
+msgid "jours."
+msgstr "days."
+
+#: includes/functions.php:1260 includes/functions.php:1274
+msgid "chaque"
+msgstr "each"
+
+#: includes/functions.php:1260 includes/functions.php:1274
+msgid "jour."
+msgstr "day."
+
+#: includes/functions.php:1262 includes/functions.php:1278
+msgid "ABONNEMENT"
+msgstr "SUBSCRIPTION"
+
+#: includes/functions.php:1262
+msgid "Paiement"
+msgstr "Payment"
+
+#: includes/functions.php:1267
+msgid "crédités sur votre compte à chaque paiement."
+msgstr "credited to your account with each payment."
+
+#: includes/functions.php:1268
+msgid "crédité sur votre compte à chaque paiement."
+msgstr "credited to your account with each payment."
+
+#: includes/functions.php:1274 includes/functions.php:1276
+msgid "jours"
+msgstr "days"
+
+#: includes/functions.php:1276
+msgid "jour"
+msgstr "day"
+
+#: includes/functions.php:1283
+msgid "crédités sur votre compte au 1er paiement."
+msgstr "credited to your account on the 1st payment."
+
+#: includes/functions.php:1284
+msgid "crédité sur votre compte au 1er paiement."
+msgstr "credited to your account on the 1st payment."
+
+#: includes/functions.php:1291
+msgid "crédités sur votre compte à chaque paiement dès le second paiement."
+msgstr "credited to your account with each payment from the second payment."
+
+#: includes/functions.php:1292
+msgid "crédité sur votre compte à chaque paiement dès le second paiement."
+msgstr "credited to your account with each payment from the second payment."
+
+#: includes/functions.php:1297
+msgid "Second paiement après"
+msgstr "Second payment after"
+
+#: includes/functions.php:1298
+msgid "Puis paiement"
+msgstr "Then payment"
+
+#: includes/functions.php:1376
+msgid "La meta"
+msgstr "The meta"
+
+#: includes/functions.php:1376
+msgid "n'existe pas..."
+msgstr "doesn't exist..."
+
+#: includes/functions.php:1560
+msgid "Acheter"
+msgstr "Buy"
+
+#: includes/functions.php:1574
+msgid "Le produit ciblé n'existe pas. ID du produit ciblé : "
+msgstr "The targeted product does not exist. Target product ID:"
+
+#: includes/functions.php:1644 includes/functions.php:1734
+msgid "ok"
+msgstr "ok"
+
+#: includes/functions.php:1651 includes/functions.php:1742 includes/functions.php:1752
+msgid "erreur"
+msgstr "error"
+
+#: includes/functions.php:1652
+msgid "Une erreur est survenue : le bouton est mal configuré."
+msgstr "An error has occurred: the button is incorrectly configured."
+
+#: includes/functions.php:1810 includes/functions.php:1825 includes/functions.php:1839
+msgid "Type de commande :"
+msgstr "Order type:"
+
+#: includes/functions.php:1811 includes/functions.php:1826
+msgid "Abonnement / paiements récurrents"
+msgstr "Subscription/recurring payments"
+
+#: includes/functions.php:1812
+msgid "Arrêter l'abonnement du client :"
+msgstr "Stop customer subscription:"
+
+#: includes/functions.php:1813
+msgid "L'abonnement n'a pas pu être arrêté : arrêtez l'abonnement directement sur le site Hipay Wallet."
+msgstr "The subscription could not be stopped: stop the subscription directly on the Hipay Wallet site."
+
+#: includes/functions.php:1813
+msgid "Arrêter l'abonnement"
+msgstr "Stop subscription"
+
+#: includes/functions.php:1814
+msgid "ATTENTION : cette action est irréversible. En cliquant sur le bouton vous arrêterez définitivement l'abonnement du client !"
+msgstr "WARNING: this action is irreversible. By clicking on the button you will definitively stop the customer subscription!"
+
+#: includes/functions.php:1827
+msgid "Abonnement stoppé :"
+msgstr "Subscription stopped:"
+
+#: includes/functions.php:1828
+msgid "L'abonnement pour ce client a été stoppé le :"
+msgstr "The subscription for this client was stopped on:"
+
+#: includes/functions.php:1840
+msgid "Commande à paiement unique"
+msgstr "Single payment order"
+
+#: includes/functions.php:1920
+msgid "Type"
+msgstr "Type"
+
+#: includes/functions.php:1953 includes/functions.php:1957 includes/lib/wc-hipay-gateway-pro-response.php:181
+msgid "ID de l'abonnement :"
+msgstr "Subscription ID:"
+
+#: includes/functions.php:1957 includes/functions.php:1967
+msgid "En attente de paiement..."
+msgstr "Waiting for payment..."
+
+#: includes/functions.php:1963
+msgid "EN COURS"
+msgstr "IN PROGRESS"
+
+#: includes/functions.php:1963
+msgid "STOPPÉ"
+msgstr "STOPPED"
+
+#: includes/functions.php:1971
+msgid "Abonnement"
+msgstr "Subscription"
+
+#: includes/functions.php:1975
+msgid "Paiement unique"
+msgstr "Single payment"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:26 includes/lib/wc-hipay-gateway-pro.php:26
+msgid "Autoriser à partir de votre boutique WooCommerce les paiements simples et les paiements récurrents via la plateforme de paiement en ligne HiPay Wallet. HiPay Wallet est l'une des solutions de paiement en ligne les plus sécurisées."
+msgstr "Authorize from your WooCommerce store simple payments and recurring payments via the online payment platform HiPay Wallet. HiPay Wallet is one of the most secure online payment solutions."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:80 includes/lib/wc-hipay-gateway-pro.php:74
+msgid "Vous avez annulé la transaction de votre commande. S'il s'agit d'une erreur vous pouvez à nouveau procéder au paiement de votre commande."
+msgstr "You have canceled your order transaction. If it is an error you can again proceed to the payment of your order."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:88 includes/lib/wc-hipay-gateway-pro.php:82
+msgid "Votre paiement n'a pas été effectué et votre commande n'a pas aboutie, car un problème est survenu lors du paiement sur la plateforme HiPay Wallet : il peut s'agir d'un manque de provisions sur votre compte bancaire ou d'une restriction liée à votre compte bancaire."
+msgstr "Your payment was not made and your order was not completed, because a problem occurred during the payment on the HiPay Wallet platform: it may be a lack of provisions in your bank account or a restriction related to your bank account."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:104 includes/lib/wc-hipay-gateway-pro.php:98
+msgid "une erreur est survenue : l'ID de vore commande n'a pu être récupéré et le statut de votre commande est inconnu..."
+msgstr "an error occurred: your order ID could not be retrieved and the status of your order is unknown..."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:121 includes/lib/wc-hipay-gateway-pro.php:115
+msgid "Activer/désactiver"
+msgstr "Activate/deactivate"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:122 includes/lib/wc-hipay-gateway-pro.php:116
+msgid "Activer HiPay Wallet Payment Gateway Pro"
+msgstr "Activate HiPay Wallet Payment Gateway Pro"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:128 includes/lib/wc-hipay-gateway-pro.php:122
+msgid "Titre"
+msgstr "Title"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:130 includes/lib/wc-hipay-gateway-pro.php:124
+msgid "Ce champ gère le titre que l'utilisateur verra durant le processus de paiement. "
+msgstr "This field manages the title that the user will see during the payment process."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:131 includes/lib/wc-hipay-gateway-pro.php:125
+msgid "Carte de paiement via Hipay Wallet"
+msgstr "Payment card via Hipay Wallet"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:133 includes/lib/wc-hipay-gateway-pro.php:127
+msgid "Carte de paiement"
+msgstr "Payment card"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:136 includes/lib/wc-hipay-gateway-pro.php:130
+msgid "Description"
+msgstr "Description"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:138 includes/lib/wc-hipay-gateway-pro.php:132
+msgid "Ce champ gère la description que l'utilisateur verra durant le processus de paiement. "
+msgstr "This field manages the description that the user will see during the payment process."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:140
+msgid "assets/img/woocommerce-hipaywallet-pro-payment-gateway.jpg\" alt=\"HiPay Wallet Payment Gateway\"/><br/><br/>Payer en toute sécurité avec <a href=\"https://www.hipaywallet.com\" target=\"_blank\" title=\"HiPay Wallet Payment Gateway\">HiPay Wallet</a>."
+msgstr "assets/img/woocommerce-hipaywallet-pro-payment-gateway.jpg\" alt=\"HiPay Wallet Payment Gateway\"/><br/><br/>Pay securely with <a href=\"https://www.hipaywallet.com\" target=\"_blank\" title=\"HiPay Wallet Payment Gateway\">HiPay Wallet</a>."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:141 includes/lib/wc-hipay-gateway-pro.php:135
+msgid "Description que le client verra..."
+msgstr "Description the client will see..."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:144 includes/lib/wc-hipay-gateway-pro.php:138
+msgid "Mode test"
+msgstr "Test mode"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:145 includes/lib/wc-hipay-gateway-pro.php:139
+msgid "Activer le mode test"
+msgstr "Activate test mode"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:147 includes/lib/wc-hipay-gateway-pro.php:141
+msgid "Cochez pour activer le mode test, sinon le mode production est activé."
+msgstr "Check to activate the test mode, otherwise the production mode is activated."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:152 includes/lib/wc-hipay-gateway-pro.php:146
+msgid "Login API - mode test"
+msgstr "API login - test mode"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:154 includes/lib/wc-hipay-gateway-pro.php:148
+msgid "Votre login API pour l'environnement de TEST."
+msgstr "Your API login for the TEST environment."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:158 includes/lib/wc-hipay-gateway-pro.php:152
+msgid "Mot de passe API - mode test"
+msgstr "API password - test mode"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:160 includes/lib/wc-hipay-gateway-pro.php:154
+msgid "Votre mot de passe API pour l'environnement de TEST."
+msgstr "Your API password for the TEST environment."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:164 includes/lib/wc-hipay-gateway-pro.php:158
+msgid "Clé RSA privée - mode test"
+msgstr "Private RSA key - test mode"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:166 includes/lib/wc-hipay-gateway-pro.php:160
+msgid "Votre clé RSA privée pour l'environnement de TEST."
+msgstr "Your private RSA key for the TEST environment."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:170 includes/lib/wc-hipay-gateway-pro.php:164
+msgid "Login API - mode production"
+msgstr "API login - production mode"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:172 includes/lib/wc-hipay-gateway-pro.php:166
+msgid "Votre login API pour l'environnement de PRODUCTION."
+msgstr "Your API login for the PRODUCTION environment."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:176 includes/lib/wc-hipay-gateway-pro.php:170
+msgid "Mot de passe API - mode production"
+msgstr "API password - production mode"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:178 includes/lib/wc-hipay-gateway-pro.php:172
+msgid "Votre mot de passe API pour l'environnement de PRODUCTION."
+msgstr "Your API password for the PRODUCTION environment."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:182 includes/lib/wc-hipay-gateway-pro.php:176
+msgid "Clé RSA privée - mode production"
+msgstr "Private RSA key - production mode"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:184 includes/lib/wc-hipay-gateway-pro.php:178
+msgid "Votre clé RSA privée pour l'environnement de PRODUCTION."
+msgstr "Your private RSA key for the PRODUCTION environment."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:188 includes/lib/wc-hipay-gateway-pro.php:182
+msgid "Logo du formulaire HiPay Wallet"
+msgstr "HiPay Wallet form logo"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:190 includes/lib/wc-hipay-gateway-pro.php:184
+msgid "Votre logo sur le formulaire de paiement HiPay Wallet (512x512 pixels), formats .jpg, .jpeg, .gif ou .png."
+msgstr "Your logo on the HiPay Wallet payment form (512x512 pixels), .jpg, .jpeg, .gif or .png formats."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:196 includes/lib/wc-hipay-gateway-pro.php:190
+msgid "Age minimum des clients"
+msgstr "Minimum age of customers"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:198 includes/lib/wc-hipay-gateway-pro.php:192
+msgid "Définissez l'âge minimum des clients : 12, 16, 18, ALL."
+msgstr "Set the minimum age for clients: 12, 16, 18, ALL."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:201 includes/lib/wc-hipay-gateway-pro.php:195
+msgid "18"
+msgstr "18"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:204 includes/lib/wc-hipay-gateway-pro.php:198
+msgid "ID du site Web"
+msgstr "Website ID"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:206 includes/lib/wc-hipay-gateway-pro.php:200
+msgid "ID du site Web sur votre compte HiPay Wallet."
+msgstr "Website ID on your HiPay Wallet account."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:210 includes/lib/wc-hipay-gateway-pro.php:204
+msgid "ID de la catégorie"
+msgstr "Category ID"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:212 includes/lib/wc-hipay-gateway-pro.php:206
+msgid "ID de la catégorie du site Web sur votre compte HiPay Wallet."
+msgstr "Website category ID on your HiPay Wallet account."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:216 includes/lib/wc-hipay-gateway-pro.php:210
+msgid "ID du compte principal"
+msgstr "Main account ID"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:218 includes/lib/wc-hipay-gateway-pro.php:212
+msgid "ID du compte principal, compte HiPay Wallet sur lequel est configuré le site Internet."
+msgstr "Main account ID, HiPay Wallet account on which the website is configured."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:222 includes/lib/wc-hipay-gateway-pro.php:216
+msgid "ID du compte affilié N°1"
+msgstr "Affiliate account ID N°1"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:224 includes/lib/wc-hipay-gateway-pro.php:218
+msgid "ID du compte affilié N°1, pour la perception des commissions sur les ventes."
+msgstr "Affiliate account ID N°1, for collecting commissions on sales."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:228 includes/lib/wc-hipay-gateway-pro.php:222
+msgid "ID du compte affilié N°2"
+msgstr "Affiliate account ID N°2"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:230 includes/lib/wc-hipay-gateway-pro.php:224
+msgid "ID du compte affilié N°2, pour la perception des commissions sur les ventes."
+msgstr "Affiliate account ID N°2, for collecting commissions on sales."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:234 includes/lib/wc-hipay-gateway-pro.php:228
+msgid "ID du compte affilié N°3"
+msgstr "Affiliate account ID N°3"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:236 includes/lib/wc-hipay-gateway-pro.php:230
+msgid "ID du compte affilié N°3, pour la perception des commissions sur les ventes."
+msgstr "Affiliate account ID N°3, for collecting commissions on sales."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:240 includes/lib/wc-hipay-gateway-pro.php:234
+msgid "ID du compte affilié N°4"
+msgstr "Affiliate account ID N°4"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:242 includes/lib/wc-hipay-gateway-pro.php:236
+msgid "ID du compte affilié N°4, pour la perception des commissions sur les ventes."
+msgstr "Affiliate account ID N°4, for collecting commissions on sales."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:246 includes/lib/wc-hipay-gateway-pro.php:240
+msgid "Utilisateurs et désabonnement"
+msgstr "Users and unsubscribe"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:247 includes/lib/wc-hipay-gateway-pro.php:241
+msgid "Permettre aux utilisateurs de se désabonner"
+msgstr "Allow users to unsubscribe"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:249 includes/lib/wc-hipay-gateway-pro.php:243
+msgid "Cocher la case pour permettre aux utiisateurs qui souscrivent un abonnement de se désabonner eux-mêmes."
+msgstr "Check the box to allow customers who purchase a subscription to unsubscribe themselves."
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:309 includes/lib/wc-hipay-gateway-pro.php:303
+msgid "Traitement du paiement"
+msgstr "Payment treatment"
+
+#: includes/lib/wc-hipay-gateway-pro_1.php:311 includes/lib/wc-hipay-gateway-pro.php:305
+msgid "Analyse de la réception du paiement depuis Hipay Wallet..."
+msgstr "Analysis of receipt of payment from Hipay Wallet..."
+
+#: includes/lib/wc-hipay-gateway-pro.php:134
+msgid "Payer en toute sécurité avec"
+msgstr "Pay securely with"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:121
+msgid "Commande d'abonnement sur Hipay Wallet effectuée avec succès :"
+msgstr "Hipay Wallet subscription order successfully placed:"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:181 includes/lib/wc-hipay-gateway-pro-response.php:183
+msgid "Paiement récurrent N°"
+msgstr "Payment n°"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:181
+msgid "pour l'abonnement de la commande"
+msgstr "for the subscription of the order"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:183
+msgid "pour l'abonnement, commande N°"
+msgstr "for subscription, order N°"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:183
+msgid "ID de la transaction :"
+msgstr "Transaction ID:"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:199
+msgid "Commande sur Hipay Wallet effectuée avec succès, ID de transaction :"
+msgstr "Hipay Wallet order placed successfully, transaction ID:"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:208
+msgid "Autorisation de paiement refusée pour la transaction suivante :"
+msgstr "Payment authorization refused for the following transaction:"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:213
+msgid "Autorisation de paiement acceptée mais paiement refusé pour la transaction suivante :"
+msgstr "Payment authorization accepted but payment refused for the following transaction:"
+
+#: includes/lib/wc-hipay-gateway-pro-response.php:218
+msgid "Un problème indéterminé est survenu, la paiement n'a pas pu être effectué pour la transaction suivante :"
+msgstr "An undetermined problem has occurred, payment could not be made for the following transaction:"
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:152
+msgid "Renouvellement"
+msgstr "Renewal"
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:153
+msgid "Renouvellement du produit/service"
+msgstr "Product/service renewal"
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:154
+msgid "Validation"
+msgstr "Validation"
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:155
+msgid "Souscription validée au produit/service"
+msgstr "Subscription validated for the product/service"
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:179
+msgid "article(s)"
+msgstr "product(s)"
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:185
+msgid "Votre panier compte au moins 1 produit (ou service) sous forme d'abonnement. Pour procéder au paiement votre panier ne doit contenir qu'un seul produit (ou service) sous forme d'abonnement, ou uniquement des produits à paiement unique."
+msgstr "Your basket has at least 1 product (or service) in the form of a subscription. To make the payment, your basket must contain only one product (or service) in the form of a subscription, or only single payment products."
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:191
+msgid "Votre panier compte au moins 1 produit (ou service) sous forme d'abonnement dont la quantité est supérieure à 1. Pour procéder au paiement votre panier ne doit contenir qu'un seul produit (ou service) sous forme d'abonnement en quantité 1, ou uniquement des produits à paiement unique."
+msgstr "Your basket has at least 1 product (or service) in the form of a subscription the quantity of which is greater than 1. To proceed with payment, your basket must contain only one product (or service) in the form of a quantity subscription 1 , or only single payment products."
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:201
+msgid "Code erreur :"
+msgstr "Error code:"
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:201
+msgid "Descriptif de l'erreur :"
+msgstr "Error description:"
+
+#: includes/lib/wc-hipay-gateway-pro-request.php:201
+msgid "Référence marchand :"
+msgstr "Merchant reference"
+
+#. Name of the plugin
+msgid "WooCommerce HipayWallet Pro"
+msgstr "WooCommerce HipayWallet Pro"
+
+#. Description of the plugin
+msgid "Allow simple and reccuring payments on WooCommerce with HiPay Wallet payment gateway."
+msgstr "Allow simple and reccuring payments on WooCommerce with HiPay Wallet payment gateway."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.bozprod.eu/"
+msgstr "https://www.bozprod.eu/"
+
+#. Author of the plugin
+msgid "BOZ PROD"
+msgstr "BOZ PROD"

@@ -1,0 +1,459 @@
+.woohipaypro-token.icon {
+    color: #f8d42e;
+    position: relative;
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+    border: solid 1px currentColor;
+    background-color: currentColor;
+    border-radius: 8px;
+    float: left;
+    margin-right: 6px;
+}
+
+.woohipaypro-token.icon:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -1px;
+    width: 15px;
+    height: 1px;
+    color: #da9f00;
+    background-color: currentColor;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.woohipaypro-stop.icon {
+    color: rgb(235,0,0);
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: solid 8px currentColor;
+    border-radius: 25px;
+}
+
+.woohipaypro-stop.icon:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -7px;
+    width: 46px;
+    height: 8px;
+    background-color: currentColor;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.woohipaypro-unlock.icon {
+    color: #000;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: 13px;
+    width: 13px;
+    height: 6px;
+    border: solid 1px currentColor;
+    border-radius: 1px;
+}
+
+.woohipaypro-unlock.icon:before {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: -8px;
+    width: 5px;
+    height: 3px;
+    border-radius: 4px 4px 0 0;
+    border-top: solid 1px currentColor;
+    border-left: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+}
+
+.woohipaypro-unlock.icon:after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: -4px;
+    width: 1px;
+    height: 3px;
+    background-color: currentColor;
+}
+
+.woohipaypro-key.icon {
+    color: #000;
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: solid 1px currentColor;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+}
+
+.woohipaypro-key.icon:before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 3px;
+    width: 12px;
+    height: 1px;
+    background-color: currentColor;
+}
+
+.woohipaypro-key.icon:after {
+    content: '';
+    position: absolute;
+    left: 14px;
+    top: 0px;
+    width: 1px;
+    height: 3px;
+    border-left: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+}
+
+.woohipaypro-card.icon {
+    color: #000;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 9px;
+    width: 15px;
+    height: 10px;
+    border-radius: 1px;
+    border: solid 1px currentColor;
+}
+
+.woohipaypro-card.icon:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: -1px;
+    width: 15px;
+    height: 2px;
+    background-color: currentColor;
+}
+
+.woohipaypro-card.icon:after {
+    content: '';
+    position: absolute;
+    right: 1px;
+    bottom: 2px;
+    width: 4px;
+    height: 1px;
+    background-color: currentColor;
+}
+
+
+
+#woohipaypro-restricted-access {
+    display: block;
+    position: relative;
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+#woohipaypro-restricted-access h1,
+#woohipaypro-restricted-access h2,
+#woohipaypro-restricted-access h3 {
+    text-align: center;
+}
+
+#woohipaypro-restricted-access .centered-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+#woohipaypro-restricted-access p {
+    text-align: center;
+    margin: 24px auto;
+}
+
+#woohipaypro-restricted-notice {
+    display: none;
+    position: fixed;
+    z-index: 1000000;
+    width: 50%;
+    margin: 0 auto;
+    background: #02adff;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: center;
+    top: 100px;
+    left: 25%;
+    color: #fff;
+    padding: 12px 2%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.woohipaypro-rebill-badge {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.woohipaypro-rebill-badge strong {
+    background: #02adff;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    padding: 6px 8px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+.woohipaypro-custom-rebill {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.woohipaypro-tokens-label-product {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.smallmarge {
+    padding-bottom: 0;
+}
+
+.woohipaypro-tokens-label-product strong {
+    text-decoration: underline;
+}
+
+.woohipaypro-underline {
+    text-decoration: underline;
+}
+
+.woohipaypro-token.icon.woohipaypro-shortcode-tokens {
+    margin-top: 3px;
+}
+
+#woohipaypro-all-tokens {
+    dislay: block;
+    position: relative;
+    z-index: 100000;
+}
+
+#woohipaypro-all-tokens a {
+    display: block;
+    position: relative;
+    margin-top: -2px;
+}
+
+#woohipaypro-tokens-list-dark {
+    list-style-type: none;
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    background: #333;
+    width: 220px;
+    padding: 12px;
+    margin-left: 0;
+    z-index: 100001;
+    border-top: solid 2px #777;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+}
+
+#woohipaypro-tokens-list-dark li {
+    text-align: left;
+    border-bottom: solid 1px #555;
+    color: #999;
+}
+
+#woohipaypro-tokens-list-light {
+    list-style-type: none;
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    background: #fff;
+    width: 220px;
+    padding: 12px;
+    margin-left: 0;
+    z-index: 100001;
+    border-top: solid 2px #999;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+}
+
+#woohipaypro-tokens-list-light li {
+    text-align: left;
+    border-bottom: solid 1px rgb(225,225,225);
+    color: #333;
+}
+
+#woohipaypro-tokens-list-light li small,
+#woohipaypro-tokens-list-dark li small {
+    font-size: 11px;
+}
+
+#woohipaypro-all-tokens-list-dark {
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #333;
+    border-top: solid 2px #777;
+}
+
+#woohipaypro-all-tokens-list-light {
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border-top: solid 2px rgb(205,205,205);
+}
+
+#woohipaypro-all-tokens-list-dark a,
+#woohipaypro-all-tokens-list-light a {
+    display: block;
+    padding: 6px 12px;
+}
+
+#woohipaypro-all-tokens-list-dark a:hover {
+    color: rgb(235,235,235);
+}
+
+#woohipaypro-tokens-simple-list-dark {
+    list-style-type: none;
+    display: block;
+    position: relative;
+    margin-top: 0;
+    background: #333;
+    padding: 12px;
+    margin-left: 0;
+    border-top: solid 2px #777;
+}
+
+#woohipaypro-tokens-simple-list-dark li {
+    text-align: left;
+    border-bottom: solid 1px #555;
+    color: #999;
+}
+
+#woohipaypro-tokens-simple-list-light {
+    list-style-type: none;
+    display: block;
+    position: relative;
+    margin-top: 0;
+    background: #fff;
+    padding: 12px;
+    margin-left: 0;
+    border-top: solid 2px rgb(205,205,205);
+}
+
+#woohipaypro-tokens-simple-list-light li {
+    text-align: left;
+    border-bottom: solid 1px rgb(225,225,225);
+    color: #333;
+}
+
+#woohipaypro-tokens-simple-list-light li small,
+#woohipaypro-tokens-simple-list-dark li small {
+    font-size: 11px;
+}
+
+#woohipaypro-black-bg {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100010;
+    background: #000;
+    background: rgba(0,0,0,.75);
+}
+
+#woohipaypro-black-bg #content {
+    display: block;
+    position: relative;
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10%;
+    background: #fff;
+    border-radius: 6px;
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop {
+    display: block;
+    position: relative;
+    padding: 10%;
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop .psmall {
+    font-size: 12px;
+    line-height: 1.3em;
+    color: rgb(235,0,0);
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop #stop #btn-stop {
+    background: #000;
+    width: 100%;
+    display: block;
+    padding: 6px 0;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop #stop #btn-stop:hover {
+    background: rgb(235,0,0);
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop #confirm {
+    display: none;
+    color: #14a372;
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop #error {
+    display: none;
+    color: rgb(235,0,0);
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop #cog {
+    display: none;
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop #cog #woohipaypro-cog {
+    display: block;
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    animation: roll 2s infinite;
+    transform: rotate(30deg);
+}
+
+#woohipaypro-black-bg #content #woohipaypro-stop #cog p {
+    margin-top: 12px;
+    color: rgb(235,0,0);
+}
+
+@keyframes roll {
+    0%{transform: rotate(0);}
+    100%{transform: rotate(360deg);}
+}
+
+@media screen and (max-width: 899px){
+    
+    #woohipaypro-tokens-list-dark,
+    #woohipaypro-tokens-list-light {
+        right: 0;
+    }
+    
+}

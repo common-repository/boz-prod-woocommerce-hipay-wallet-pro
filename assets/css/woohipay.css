@@ -1,0 +1,67 @@
+#woohipaypro-admin-order {
+    display: block;
+    position: relative;
+    clear: both;
+    padding-top: 24px;
+}
+
+#woohipaypro-admin-order #woohipaypro-admin {
+    padding: 8px;
+    border: solid 1px rgb(220,220,220);
+    border-radius: 4px;
+}
+
+#woohipaypro-admin-order h3 {
+    padding-bottom: 12px;
+}
+
+#woohipaypro-admin-order h3.first {
+    margin-top: 0;
+}
+
+#woohipaypro-admin-order p.order-type {
+    font-weight: 700;
+    color: #0091f7;
+    margin-top: 0;
+}
+
+#woohipaypro-admin-order small {
+    display: block;
+    clear: both;
+    margin-top: 12px;
+}
+
+#woohipaypro-admin-order small.warning {
+    color: rgb(235,0,0);
+}
+
+#woohipaypro-admin-order p.info {
+    margin-top: 0;
+}
+
+.oneshot-payment {
+    color: #0584e6;
+}
+
+.subscription-payment {
+    color: #0584e6;
+    font-weight: 700;
+}
+
+.active-sub {
+    color: #049f77;
+    font-weight: 700;
+}
+
+.stopped-sub {
+    color: rgb(235,0,0);
+    font-weight: 700;
+}
+
+.sub-sub {
+    color: rgb(120,120,120);
+}
+
+.sub-sub-id {
+    color: #0584e6;
+}
